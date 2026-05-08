@@ -1,0 +1,10 @@
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/anthropic/v1/messages.js": {
+      "maxDuration": 60
+    }
+  }
+}
